@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	border: 0.5px dotted black;
+	/*border: 0.5px dotted black;*/
 }
 img{
 	width: 100%;
@@ -13,13 +13,13 @@ header {
 	display: block;
 }
 .navBarTitle {
-	height: 100%;
+	/*height: 100%;*/
 	font-size: 2em;
 	align-items: center;
 	text-align: center;
 	vertical-align: text-bottom;
 	list-style: none;
-	list-height:70px;
+	/*list-height:70px;*/
 	display: inline;
 	list-style: 
 	margin:0;
@@ -82,31 +82,78 @@ navBarSideComponent4{
 .tieImageList{
 	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .threeImages{
-	margin: auto;
+	margin: 0 auto;
+	display: inline-block;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	
+
 
 }
 
-.threeImages img {
-	width: 40%;
-	display: inline;
-	padding: 1em;
+.threeImgComponent {
+	width: 29%;	
+	margin: 1%;
+
 }
 
 .ourStoryIntro {
-	
+	padding: 3%;
 	text-align: center;
 }
 
+.extraInfo {
+	padding: 2%;
+	height: 300px;
+	clear: both;
+	
 
+}
 
+.extraInfoList {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	width: 100%;
+	
+}
 
+.extraInfoListComponent {
+	width: 20%;
+	margin: 2%;
+}
 
+.basicFooterInfo {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100px;
+}
 
+.sitemap {
+	width: 56%;
+	
+}
 
+.sitemapUl {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+.sitemap1 ,.sitemap2 ,.sitemap3 ,.sitemap4 {
+	width: 22%;
+	margin: 1%;
+}
+
+.contactUs {
+	width: 40%;
+	margin: 2%;
+}
 
 
 
