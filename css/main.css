@@ -8,20 +8,26 @@ img{
 html,body{
 	padding: 0;
 	margin: 0;
+	font-family: 'Poiret One', cursive;
 }
 header {
 	display: block;
 }
+
+.navBarMain {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 .navBarTitle {
 	/*height: 100%;*/
-	font-size: 2em;
-	align-items: center;
+	width: 45%;
+	font-size: 1.5em;
 	text-align: center;
 	vertical-align: text-bottom;
 	list-style: none;
 	/*list-height:70px;*/
-	display: inline;
-	list-style: 
 	margin:0;
 	padding: 0;
 }
@@ -29,7 +35,10 @@ header {
 	display: inline;
 }
 .logoImg{
-	display: inline;
+	width: 15%;
+}
+.logoImg img {
+	100%;
 }
 .promo {
 	
@@ -44,9 +53,12 @@ header {
 }
 .tieImagess {
 	background-color: #f4f4f4;
+	width: 100%;
 }
 .loginSignup{
 	display: flex;
+	flex-wrap: wrap;
+	width: 35%;
 }
 .navBarSideComponent1 .navBarSideComponent2 {
 	text-align: right;
@@ -64,7 +76,7 @@ navBarSideComponent4{
 .tieImageText{
 	font-size: 3.5em;
 	text-align: center;	
-	padding: 2em;
+	padding: 1em;
 
 }
 
@@ -73,9 +85,10 @@ navBarSideComponent4{
 
 }
 
-.tie1 .tie2 .tie3 .tie4 .tie5 .tie6 .tie7 .tie8 .tie9 {
-	padding: 10px;
-	margin: 1em;
+.tie1 ,.tie2 ,.tie3 ,.tie4 ,.tie5 ,.tie6 ,.tie7 ,.tie8 ,.tie9 {
+
+	text-align: center;
+	padding: 0;
 
 
 }
@@ -113,6 +126,11 @@ navBarSideComponent4{
 	clear: both;
 	
 
+}
+
+.extraInfoHeading {
+	font-weight: bolder;
+	font-family: arial;
 }
 
 .extraInfoList {
