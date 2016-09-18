@@ -70,16 +70,25 @@ header {
 	width: 35%;
 }
 
-#collection{
-
-}
-
 .collectionddown{
 	background-color: black;
 	z-index: 1;
 	position: absolute;
 	width: 50%;
+	box-shadow: 0px 8px 16px 0px black;
 	justify-content: left;
+	display: none;
+}
+
+.collection:hover{
+	
+	text-decoration: underline;
+}
+
+.navBar:hover .collectionddown{
+	display: flex;
+	text-decoration: underline;
+
 }
 
 .collectionul{
